@@ -24,7 +24,7 @@ public class UserFormController {
     public String pageGet(){
         return "userinputform";
     }
-
+       String x = "test";
 
     @PostMapping("/addUserToDB")
     public String sendUserDataToDB(  Model model, BindingResult bindingResult){
